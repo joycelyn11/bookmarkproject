@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 70%;
+}
+.topsection{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 90px;
+}
+.lefttop{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    padding: 60px;
+    width: 50%;
+}
+.righttop{
+    /* border: 2px solid red; */
+    width: 50%;
+    padding: 60px;
+    position: relative;
+}
+.lefttop h2{
+    width: 70%;
+    font-weight: 600;
+    margin-left: 130px;
+}
+.lefttop p{
+    color: gray;
+    font-size: small;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.btns{
+    /* border: 2px solid black; */
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.leftbtn{
+    background-color: rgb(73, 73, 231);
+    border: none;
+    border-radius: 5%;
+    color: white;
+    font-size: xx-small;
+    width: 100px;
+    height: 35px;
+}
+.rightbtn{
+    background-color: rgba(238, 235, 235, 0.352);
+    border: none;
+    border-radius: 5%;
+    font-size: xx-small;
+    width: 95px;
+    height: 32px;
+    margin-left: 10px;
+}
+.bluecurve{
+    border: 2px solid rgb(73, 73, 231);
+    width: 67%;
+    height: 70%;
+    background-color: rgb(73, 73, 231);
+    border-bottom-left-radius: 45%;
+    z-index: -1;
+    margin-top: 120px;
+    padding-top: 150px;
+    margin-left: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.righttop img{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.feature{
+    border: 1px solid rgba(128, 128, 128, 0.213);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.feature p{
+    color: rgba(128, 128, 128, 0.67);
+    font-size: 15px;
+    width: 67%;
+    margin: auto;
+    margin-top: 30px;
+}
+.three{
+    /* border: 2px solid green; */
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.three p{
+    font-size: 12px;
+    margin-left: -1px;
+    margin-top: 40px;
+}
+.three p span{
+    font-weight: 600;
+}
+.line{
+    border: 1px solid rgb(215, 36, 36);
+    width: 27%;
+}
+.midsection{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    padding-bottom: 150px;
+}
+.leftmid{
+    /* border: 2px solid red; */
+    width: 60%;
+    padding-bottom: 60px ;
+    padding-right: 100px;
+    position: relative;
+}
+.rightmid{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-top: 70px;
+}
+
+.bluecurvetwo{
+    border: 2px solid rgb(73, 73, 231);
+    background-color: rgb(73, 73, 231);
+    width: 70%;
+    height: 120%;
+    border-bottom-right-radius: 45%;
+    z-index: -1;
+    margin-top: 85px;
+    position: absolute;
+}
+.leftmid img{
+    width: 65%;
+    top: 10px;
+    right: 140px;
+    position: absolute;
+}
+.rightmid h4{
+    font-weight: 600;
+    margin-left: 30px;
+}
+.rightmid p{
+    color: rgba(128, 128, 128, 0.67);
+    margin-top: 30px;
+    font-size: small;
+    margin-left: 30px;
+    width: 56%;
+}
+.rightmid .midbtn{
+    background-color: rgb(73, 73, 231);
+    color: white;
+    border: none;
+    font-size: xx-small;
+    width: 85px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 5%;
+}
+.download{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.download h3{
+    font-weight: 600;
+    font-size: x-large;
+}
+.download p{
+    color: rgba(128, 128, 128, 0.67);
+    font-size: 15px;
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
+}
+.browsers{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.chrome{
+    /* border: 2px solid black; */
+    background-color: rgba(238, 235, 235, 0.352);
+    box-shadow: 3px 3px rgba(238, 235, 235, 0.352);
+    border-radius: 10%;
+    width: 27%;
+    height: 270px;
+    padding-top: 15px;
+
+}
+
+.firefox{
+    /* border: 2px solid black; */
+    background-color: rgba(238, 235, 235, 0.352);
+    box-shadow: 3px 3px rgba(238, 235, 235, 0.352);
+    border-radius: 10%;
+    width: 27%;
+    height: 270px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.opera{
+    /* border: 2px solid rgba(254, 249, 249, 0.663); */
+    background-color: rgba(238, 235, 235, 0.352);
+    box-shadow: 3px 3px rgba(238, 235, 235, 0.352);
+    border-radius: 10%;
+    width: 27%;
+    height: 270px;
+    padding-top: 15px;
+    margin-top: 40px;
+}
+
+.browsers .dot{
+    width: 100%;
+}
+.browsers h6{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.browsers p{
+    font-size: x-small;
+    margin-top: 10px;
+}
+.browsers button{
+    font-size: x-small;
+    color: white;
+    width: 85%;
+    height: 35px;
+    border: none;
+    background-color: rgb(73, 73, 231);
+    border-radius: 5%;
+    margin-top: 15px;
+}
+.frequently{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: auto;margin-top: 80px;
+    text-align: center;
+}
+.frequently h3{
+    font-weight: 600;
+}
+.frequently p{
+    color: rgba(128, 128, 128, 0.67);
+    font-size: 15px;
+    width: 65%;
+    margin: auto;
+}
+.accordion{
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+.morebtn{
+    width: 120px;
+    font-size: 12px;
+    height: 45px;
+    margin-left: 36rem;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(73, 73, 231);
+    border-radius: 5%;
+    color: white;
+}
+.bottomsection{
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(76, 76, 223);
+}
+.bottomsection h6{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.bottomsection h2{
+    color: white;
+    width: 35%;
+    margin: auto;
+}
+.bottomsection input{
+    font-size: small;
+    width: 25%;
+    height: 35px;
+    border-radius: 8%;
+    border: none;
+    margin-top: 30px;
+}
+.bottomsection button{
+    font-size: 12px;
+    width: 9%;
+    height: 35px;
+    border: none;
+    background-color: rgb(238, 59, 59);
+    border-radius: 5%;
+    color: white;
+}
+footer{
+    /* border: 2px solid rgb(5, 5, 79); */
+    background-color: rgb(14, 14, 79);
+    display: flex;
+    justify-content: space-around;
+    color: rgb(189, 183, 183);
+    font-size: small;
+    padding: 30px;
+}
+.navitems{
+    margin-right: 20rem;
+    margin-top: 5px;
+}
+.navitems a{
+padding: 10px;
+font-size: 2px;
+color: gray;
+}
+.icons svg{
+    margin-right: 15px;
+    color: white;
+}
+.bi-bookmark-fill{
+    color: white;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.bookfill{
+    /* border: 2px solid blue; */
+    background-color: rgb(81, 81, 219);;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.bookfill h4{
+    color: snow;
+    margin-left: 17px;
+}
